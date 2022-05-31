@@ -1,0 +1,159 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tab_1 {
+    height:80px;
+    background-color: #FFD700	;
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+
+
+#tab_1 li {
+    display:inline-block;
+}
+#tab_1 li a{
+    color:#fff;
+    text-decoration: none;
+    line-height: 80px;
+    padding: 0 24px;
+    font-size:26px;
+}
+i{
+    color:#fff;
+    font-size: 15px;
+} 
+
+
+ #tab_1 li:hover a{
+    color:rgb(255,255,255);
+    opacity: 0.75;
+} 
+
+#tab_2{
+    position: relative;
+    padding-top:25%;
+    background-color: #B8860B;
+}
+
+#tab_2 .nav{
+    position:absolute;
+    color:#fff;
+    bottom:30px;
+    padding-left: 20%;
+}
+
+
+#tab_2 .nav .nav-1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom:36px;
+    font-size:39px;
+}
+#tab_2 .nav .nav-2{
+    padding-bottom:42px;
+    font-size: 26px;
+    padding-left:100px;
+}
+
+#tab_2 .nav-2 .AlanRick{
+    position:absolute;
+    clip-path: circle(42%); 
+    top:55px;
+    left:285px;
+}
+
+#tab_3{
+    background-color: #FFFFF0;
+    padding-top:2%;
+}
+
+#tab_3 li{
+    display:inline-block;
+    color:#808080;
+    opacity: 0.8;
+    font-size:18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+
+#tab_3 li i{
+    color:#808080;
+    font-size:18px;
+    padding-left:275px;
+    opacity: 0.8;
+}
+
+#tab_4 {
+    padding:2%;
+    background-color:#FFFFF0;
+}
+#tab_4 .sub .on_text{
+    border-top: 1px solid #808080;
+}
+
+#tab_4 .sub p::first-letter{
+    font-size:200%;
+    color:grey;
+    
+}
+
+#tab_4 .sub p{
+    font-size:32px;
+    color:#808080;
+    padding-bottom: 60px;
+}
+
+
+
+.sub_2 .in_text{
+    height: 100%;
+    width: 1px;
+    border-left: 1px solid gray;
+}
+
+#tab_4 .sub_2 p{
+    padding-top:25px;
+    font-size:32px;
+    color:#808080;
+    background-color: #F8F8F8;
+    border-left: 12px solid #808080;
+    line-height:50px;
+}
+
+#tab_5 {
+    padding:2%;
+    background-color:#FFFFF0;
+}
+
+
+#tab_5 .last .on_last_text{
+    padding-top:50px;
+    border-top: 1px solid #808080;
+}
+
+#tab_5 li i{
+    color:gray;
+    font-size:28px;
+    opacity: 0.8;
+}
+
+#tab_5 li{
+    cursor: pointer;
+    display:inline-block;
+    color:#808080;
+    opacity: 0.8;
+    padding-left:140px;
+    font-size:24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+
+

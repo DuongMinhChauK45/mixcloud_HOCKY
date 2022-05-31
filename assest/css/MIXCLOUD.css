@@ -1,0 +1,493 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family: "DM Sans", sans-serif;
+}
+
+#header {
+    height:60px;
+    background-color: rgb(30,35,55);
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+
+
+#nav li {
+    display:inline-block;
+}
+#nav li a{
+    color:rgb(255,255,255);
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 24px;
+    font-size:18px;
+}
+i{
+    color:rgb(255,255,255);
+    font-size: 15px;
+} 
+
+
+ #nav li:hover a{
+    color:rgb(255,255,255);
+    opacity: 0.75;
+} 
+
+#slider{
+    position: relative;
+    padding-top:40%;
+    background-color: rgb(30,35,55);
+}
+
+#slider .text-content{
+    position:absolute;
+    color:#fff;
+    bottom:200px;
+    padding-left: 20%;
+}
+
+#slider .text-content .text-heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:36px;
+    font-size:39px;
+}
+#slider .text-content .text-description{
+    padding-bottom:42px;
+    font-size: 18px;
+}
+
+
+#slider .text-content a{
+    text-decoration: none;
+    background-color: rgb(248,190,178);
+    color:rgb(30,35,55);
+    text-align: center;
+     padding: 14px 40px;
+     border-radius: 4px;
+    font-size:16px;
+  
+}
+
+.text-content:hover a{
+    opacity: 0.7;
+}
+
+
+#slider .dj-repeat{
+    position:absolute;
+    top:120px;
+    right:380px;
+    height:700px;
+    width:550px;
+    border-radius: 9px;
+    overflow:hidden;
+    
+}
+
+#slider .img-front{
+    position:absolute;
+    top:60px;
+    right:380px;
+}
+
+#card_all{
+    position: relative;
+    background-color: rgb(80,0,255);
+    padding-top:45%;
+}
+
+
+
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+    background-color: #fff;
+    position:absolute;
+    padding: 220px 170px;
+    top:130px;
+    left:22%;
+}
+
+.card1 .melanie-C .font-melanie {
+    position: absolute;
+    font-family:"DM Sans", sans-serif;
+    color:#1E2337;
+    font-size:18px;
+    top:180px;
+    left:70px;
+}
+
+.card1 .melanie-C .melanie{
+    position:absolute;
+    clip-path: circle(50%); 
+    top:40px;
+    left:120px;
+}
+
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+    background-color: #fff;
+    position:absolute;
+    padding: 220px 170px;
+    top:130px;
+    left:42%;
+}
+
+
+
+
+.card2 .Claptone .font-claptone {
+    position: absolute;
+    font-family:"DM Sans", sans-serif;
+    color:#1E2337;
+    font-size:18px;
+    top:180px;
+    left:27px;
+}
+
+.card2 .Claptone .clap{
+    position:absolute;
+    clip-path: circle(50%);
+    top:40px;
+    left:120px;
+
+}
+
+.card3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+    background-color: #fff;
+    position:absolute;
+    padding: 220px 170px;
+    top:130px;
+    left:62%;
+}
+
+
+
+
+.card3 .Adam-Beyer .font-adambeyer {
+    position: absolute;
+    font-family:"DM Sans", sans-serif;
+    color:#1E2337;
+    font-size:18px;
+    top:180px;
+    left:65px;
+}
+
+.card3 .Adam-Beyer .adam{
+    position:absolute;
+    clip-path: circle(50%);
+    top:40px;
+    left:120px;
+
+}
+
+#live-stream{
+    position: relative;
+    padding-top:45%;
+    background-color: rgb(244,244,245);
+}
+
+#live-stream .live-content{
+    position:absolute;
+    color:#1E2337;
+    bottom:150px;
+    padding-left: 50%;
+}
+
+#live-stream .live-content .live-heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:36px;
+    font-size:39px;
+}
+#live-stream .live-content .live-description{
+    padding-bottom:42px;
+    font-size: 18px;
+    color:#4C505F;
+}
+
+
+#live-stream .live-content a{
+    text-decoration: none;
+    background-color: #5000FF;
+    color:#fff;
+    text-align: center;
+     padding: 14px 40px;
+     border-radius: 4px;
+    font-size:16px;
+  
+}
+
+.live-content:hover a{
+    opacity: 0.7;
+}
+
+
+#live-stream .live-repeat{
+    position:absolute;
+    top:160px;
+    left:270px;
+    height: 560px;
+    width:575px;
+    border-radius: 9px;
+    overflow:hidden;
+    
+}
+
+#live-stream .live-img-front{
+    position:absolute;
+    top:150px;
+    left:270px;
+}
+
+
+
+#unlimited-uploads{
+    position: relative;
+    padding-top:55%;
+    background-color: rgb(255,134,82);
+}
+
+#unlimited-uploads .uploads-content{
+    position:absolute;
+    color:#7A0A00;
+    top:150px;
+    padding-left: 38%;
+    text-align: center;
+}
+
+#unlimited-uploads .uploads-content .uploads-heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:36px;
+    font-size:39px;
+}
+#unlimited-uploads .uploads-content .uploads-description{
+    padding-bottom:42px;
+    font-size: 24px;
+    color:#7A0A00;
+}
+
+
+#unlimited-uploads a{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color:#1E2337;
+    text-align: center;
+     padding: 14px 40px;
+     border-radius: 4px;
+    font-size:16px;
+  position:absolute;
+  bottom:150px;
+  left:800px;
+}
+
+#unlimited-uploads a:hover{
+    opacity: 0.7;
+}
+
+
+
+#unlimited-uploads .uploads-img-front{
+    position:absolute;
+    top:400px;
+}
+
+
+#build-community{
+    position: relative;
+    padding-top:45%;
+    background-color: rgb(244,244,245);
+}
+
+#build-community .build-content{
+    position:absolute;
+    color:#1E2337;
+    bottom:150px;
+    padding-left: 50%;
+}
+
+#build-community .build-content .build-heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:36px;
+    font-size:39px;
+}
+#build-community .build-content .build-description{
+    padding-bottom:42px;
+    font-size: 18px;
+    color:#4C505F;
+}
+
+
+#build-community .build-content a{
+    text-decoration: none;
+    background-color: #5000FF;
+    color:#fff;
+    text-align: center;
+     padding: 14px 40px;
+     border-radius: 4px;
+    font-size:16px;
+  
+}
+
+.build-content:hover a{
+    opacity: 0.7;
+}
+
+
+#build-community .build-img-front{
+    position:absolute;
+    top:150px;
+    left:270px;
+}
+
+
+
+#finds-community{
+    position: relative;
+    padding-top:28%;
+    background-color: #5000FF;
+}
+
+#finds-community .finds-content{
+    position:absolute;
+    color:#FFFFFF;
+    top:150px;
+    padding-left: 38%;
+    text-align: center;
+}
+
+#finds-community .finds-content .finds-heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:36px;
+    font-size:39px;
+}
+#finds-community .finds-content .finds-description{
+    padding-bottom:42px;
+    font-size: 24px;
+    color:#FFFFFF;
+}
+
+
+#finds-community a{
+    text-decoration: none;
+    background-color: rgb(248,190,178);
+    color:#1E2337;
+    text-align: center;
+     padding: 14px 40px;
+     border-radius: 4px;
+    font-size:16px;
+  position:absolute;
+  bottom:150px;
+  left:800px;
+}
+
+#finds-community a:hover{
+    opacity: 0.7;
+}
+
+#footer-mix{
+    position: relative;
+    padding-top:45%;
+    background-color:rgb(30,35,55);
+}
+
+#footer-mix .footer-content{
+    position:absolute;
+    color:#FFFFFF;
+    top:40px;
+    padding-left: 41%;
+    text-align: center;
+}
+
+#footer-mix .footer-content .footer-heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:36px;
+    font-size:25px;
+}
+#footer-mix .footer-content .footer-description{
+    padding-bottom:42px;
+    font-size: 20px;
+    color:#FFFFFF;
+}
+
+#footer-mix .img-google-play{
+    position:absolute;
+    left:820px ;
+    bottom:380px;
+    cursor: pointer;
+}
+
+#footer-mix .img-app-store{
+    position:absolute;
+    left:990px ;
+    bottom:380px;
+    cursor: pointer;
+}
+
+.footer-content a{
+    color: rgb(243,178,166);
+    font-size:39px;
+    text-decoration:none;
+}
+
+#footer-mix .footer-after{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:36px;
+    font-size:25px;
+    position:absolute;
+    color:#FFFFFF;
+    bottom:310px;
+    left:930px;
+}
+
+#footer-mix .s1{
+    position:absolute;
+    left:860px ;
+    bottom:285px;
+    cursor: pointer;
+}
+
+#footer-mix .s2{
+    position:absolute;
+    left:960px ;
+    bottom:285px;
+    cursor: pointer;
+}
+
+#footer-mix .s3{
+    position:absolute;
+    left:1060px ;
+    bottom:285px;
+    cursor: pointer;
+}
+
+#footer-mix .footer-last li{
+    display: inline-block;
+    position:absolute;
+    bottom:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
